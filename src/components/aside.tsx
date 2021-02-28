@@ -73,7 +73,7 @@ const Main: React.FC = () => {
                   </svg>
                 </div>
                 <div className="flex-auto my-1">
-                  <NavLink to={`/exercise-2`}>Theme Toggler</NavLink>
+                  <span>Theme Toggler</span>
                 </div>
               </div>
             </NavLink>
