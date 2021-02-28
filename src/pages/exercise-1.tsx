@@ -55,12 +55,17 @@ const Exercise1: React.FC = () => {
       </div>
 
       <div className="flex-col bg-cover p-6 rounded pt-8 pb-8">
-        <Button styleType="primary" color="primary" onClick={addItem}>
+        <Button
+          styleType="primary"
+          color="primary"
+          onClick={addItem}
+          disabled={selectedItems.length >= items.length}
+        >
           add item
         </Button>
         <ul className="list-none p-4 pl-0">
           {selectedItems.map(item => (
-            <li className="m-2 flex flex-row">
+            <li key={item.id} className="m-2 flex flex-row">
               <Button
                 styleType="secondary"
                 color="error"
