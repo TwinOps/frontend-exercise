@@ -30,7 +30,7 @@ const Main: React.FC = () => {
             <li className="p-4 w-full flex relative shadow-sm">
               <div className="flex-auto my-1">
                 <span className="text-gray-900 dark:text-white font-medium">
-                  Exercies
+                  Exercises
                 </span>
               </div>
             </li>
