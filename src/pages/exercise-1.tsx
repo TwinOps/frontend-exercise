@@ -40,7 +40,7 @@ const Exercise1: React.FC = () => {
 
   return (
     <BaseLayout>
-      <h1 className="text-center text-3xl underline">Items don't match1</h1>
+      <h1 className="text-center text-3xl underline">Items don't match</h1>
       <p className="mt-2 text-xl">
         When removing an item from the list then other items no longer match
         their input{' '}
