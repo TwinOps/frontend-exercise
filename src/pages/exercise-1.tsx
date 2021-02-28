@@ -41,10 +41,19 @@ const Exercise1: React.FC = () => {
   return (
     <BaseLayout>
       <h1 className="text-center text-3xl underline">Items don't match</h1>
-      <p className="mt-2 text-xl">
-        When removing an item from the list then other items no longer match
-        their input{' '}
-      </p>
+      <div className="flex flex-col">
+        <h2 className="text-xl text-bold">Step 1</h2>
+        <p className="mt-2 text-xl">
+          Disable button if no more items can be added
+        </p>
+
+        <h2 className="text-xl text-bold">Step 2</h2>
+        <p className="mt-2 text-xl">
+          When removing an item from the list then other items no longer match
+          their input{' '}
+        </p>
+      </div>
+
       <div className="flex-col bg-cover p-6 rounded pt-8 pb-8">
         <Button styleType="primary" color="primary" onClick={addItem}>
           add item
